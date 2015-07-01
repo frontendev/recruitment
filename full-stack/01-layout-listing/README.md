@@ -1,3 +1,16 @@
+# Page Layout + Listing
+
+Our full stack code test is very simple, reproduce the attached layout using PHP and whatever front end technologies you feel are appropriate.
+
+Successful candidates will look beyond this simplicity and deliver a solution that; is easy for us to review, considers the needs of a wide variety of users, fills in the interactions left out by the designer and appreciates that the template should be easy to update by other developers.
+
+### Desired layout
+
+![](./home-test-fullstack.png)
+
+### JSON data containing articles
+
+```json
 [
   {
     "title":"Five Jobs That Hardly Existed 10 Years Ago",
@@ -57,3 +70,8 @@
     "thumbnail":"http://findercdn.com.au/finder-au/wp-uploads/2015/06/bathroom-renovation-costs-guide.jpg"
   }
 ]
+```
+## Resources
+
+1. [PNG of the desired layout](./home-test-fullstack.png)
+2. [data.json file with articles to list](./data.json)
