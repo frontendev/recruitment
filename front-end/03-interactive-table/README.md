@@ -22,7 +22,7 @@ table should be interactive, with controls to *Filter* and *Sort*.
   * Animals: Checkboxes
   * Price: Slider
 * **Sort By:**
-  * Weight
+  * Rating
   * Price
 
 ## Setup
