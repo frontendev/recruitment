@@ -44,3 +44,5 @@ extend any of the included starting files in order to demonstrate your skills an
 
 A mock service is provided by `service.js`. A `Promise` is returned by `petService.fetch()`, which will randomly
 resolve with either a varying array of pet objects, or reject with an error string. View `Table.js` for example usage.
+
+While in development, if you find the service returns errors too regularly to allow you to focus, please feel free to adjust the provided mock code, and adjust back once you are happy with your solution.
