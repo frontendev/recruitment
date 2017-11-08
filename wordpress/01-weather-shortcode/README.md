@@ -2,7 +2,7 @@
 
 This test should provide you with the opportunity to demonstrate your WordPress development skills as well as your capabilities with PHP.
 
-## We are keen to see how the following is handled:
+## We are keen to see how the following is handled
 
 * Code location (e.g. will it be a theme, plugin etc.)
 * Documentation of your code
@@ -11,13 +11,13 @@ This test should provide you with the opportunity to demonstrate your WordPress 
 * Server performance
 * Usage of WordPress hooks
 
-## The Brief
+## The brief
 
 We want to use the following shortcode to display information about the weather on a series of WordPress websites:
 
 `[finder_weather city="Sydney"]`
 
-The shortcode will need to display a table with the following information for the calendar year:
+The shortcode will need to display a table with the following information for the entire calendar year:
 
 * Month
 * Monthly average
@@ -25,12 +25,15 @@ The shortcode will need to display a table with the following information for th
 
 ### What we want to render
 
-Weather for Sydney
+Please use the following as a suggestion for how the data should be represented.
 
-| Month | Av Temp | Change  |
-| ----- | ------- | ------- |
-| Jan   | 32.8    | +2      |
-| Feb   | 31.5    | -1.3    |
+#### Weather for Sydney
+
+| Month | Average Temp | Change  |
+| ----- | ------------ | ------- |
+| Jan   | 32.8&deg;    | +2      |
+| Feb   | 31.5&deg;    | -1.3    |
+
 
 ## Resources
 
