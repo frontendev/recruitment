@@ -17,11 +17,17 @@ We want to use the following shortcode to display information about the weather 
 
 `[finder_weather city="Sydney"]`
 
-The shortcode will need to display a table with the following information for the entire calendar year:
+The shortcode will need to display a table with the following information for 5 days:
 
-* Month
-* Monthly average
-* Change from last Month
+* Day
+* Forecast and temperature
+* Change from previous day
+
+As a stretch goal also include any of the following:
+
+* UV index
+* Air pollution
+* Humidity
 
 ### What we want to render
 
@@ -29,11 +35,13 @@ Please use the following as a suggestion for how the data should be represented.
 
 #### Weather for Sydney
 
-| Month | Average Temp | Change  |
-| ----- | ------------ | ------- |
-| Jan   | 32.8&deg;    | +2      |
-| Feb   | 31.5&deg;    | -1.3    |
-
+| Day       | Forecast           | Change  |
+| --------- | ------------------ | ------- |
+| Monday    | Sunny 32.8&deg;    | 0       |
+| Tuesday   | Overcast 31.5&deg; | -1.3    |
+| Wednesday | Sunny 31.5&deg;    | 0       |
+| Thursday  | Sunny 30.5&deg;    | -1      |
+| Friday    | Sunny 32.7&deg;    | +2.2    |
 
 ## Resources
 
