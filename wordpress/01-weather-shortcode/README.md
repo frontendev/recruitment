@@ -17,7 +17,7 @@ We want to use the following shortcode to display information about the weather 
 
 `[finder_weather city="Sydney"]`
 
-The shortcode will need to display a table with the following information for 5 days:
+The shortcode will need to display a table with the following information for 5 days from the current date:
 
 * Day
 * Forecast and temperature
