@@ -21,6 +21,7 @@ table should be interactive, with controls to *Filter* and *Sort*.
 * **Filter By:**
   * Animals: Checkboxes
   * Price: Slider
+  * Search Text Field: text input that will filter the table based on the input entered against the animal's name
 * **Sort By:**
   * Rating
   * Price

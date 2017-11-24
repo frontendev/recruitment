@@ -11,6 +11,7 @@ const promiseArb = (errorArb, successArb, timerArb) =>
   );
 
 const petArb = jsv.record({
+  name: jsv.elements(['Yvette', 'Caroline', 'Clay', 'Guadalupe', 'Hattie', 'Carol']),
   animal: jsv.elements(['Bird', 'Cat', 'Dog', 'Turtle', 'Pig', 'Capybara']),
   colour: jsv.elements(['Black', 'White', 'Brown', 'Green']),
   pattern: jsv.elements(['Solid', 'Striped', 'Spotted']),
